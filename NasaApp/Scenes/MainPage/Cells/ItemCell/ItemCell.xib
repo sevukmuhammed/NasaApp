@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemCell" id="gTV-IL-0wX" customClass="ItemCell" customModule="NasaApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="198" height="292"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="198" height="292"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dNZ-SX-RcZ">
+                        <rect key="frame" x="0.0" y="0.0" width="198" height="292"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="dNZ-SX-RcZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Hib-Nh-u8V"/>
+                <constraint firstItem="dNZ-SX-RcZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="lYV-Wv-KG5"/>
+                <constraint firstAttribute="trailing" secondItem="dNZ-SX-RcZ" secondAttribute="trailing" id="wag-1u-iEe"/>
+                <constraint firstAttribute="bottom" secondItem="dNZ-SX-RcZ" secondAttribute="bottom" id="yjJ-5X-PBj"/>
+            </constraints>
+            <size key="customSize" width="198" height="292"/>
+            <connections>
+                <outlet property="cellImage" destination="dNZ-SX-RcZ" id="8aQ-Ff-mip"/>
+            </connections>
+            <point key="canvasLocation" x="244.92753623188409" y="160.04464285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>
